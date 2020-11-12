@@ -19,6 +19,7 @@ namespace EncryptStringTest
 
         private void butEncrypt_Click(object sender, EventArgs e)
         {
+            // this is Some changes to this part 
             if ((!string.IsNullOrWhiteSpace(textBoxString.Text) && !string.IsNullOrWhiteSpace(textBoxString.Text))==true)
             {
                 try
